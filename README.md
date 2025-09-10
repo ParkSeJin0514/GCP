@@ -5,3 +5,4 @@
 - GCP DAY 1 : [09.10 Study](https://www.notion.so/psjrepository/DAY-41-26a3d86ddbdc802bad9cd10c625120f9)
 ## Practice
 - GCP Fundamentals : [09.10 Google Cloud Fundamentals](practice/01_01_GCP.md)
+- GCP VPC : [09.10 Google Cloud VPC](practice/01_02_GCP.md)
