@@ -6,7 +6,6 @@ SELECT *
 FROM `billing_dataset.sampleinfotable` 
 WHERE Cost > 0
 ```
-- Run 클릭 → Cost가 0보다 큰 행 확인
 
 ### 415,602개의 결제 데이터를 조회하는 쿼리 실행
 ```sql
