@@ -1,4 +1,4 @@
-# 📙 09.12 GCP
+# 📙 09.15 GCP
 ## 🧩 Terraform
 ### 기본 구조
 - tfinfra 디렉토리 생성 > mynetwork.tf, provider.tf 생성
