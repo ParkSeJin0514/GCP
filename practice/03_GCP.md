@@ -8,13 +8,13 @@
 
 ### provider 선언
 
-```json
+```bash
 provider "google" {}
 ```
 
 - 네트워크 설정
 
-```json
+```bash
 # Create the mynetwork network
 resource "google_compute_network" "mynetwork" {          # GCP VPC 네트워크 리소스를 정의, 이름은 "mynetwork"
   name                    = "mynetwork"                  # 네트워크 이름을 "mynetwork"로 지정
@@ -57,7 +57,7 @@ module "mynet-vm-2" {                                                      # VM 
 
 ### main.tf 설정
 
-```json
+```bash
 resource "google_compute_instance" "vm_instance" {   # GCP VM 인스턴스를 정의, 이름은 "vm_instance"
   name         = "${var.instance_name}"              # VM 이름, 모듈에서 넘겨받은 변수 instance_name 사용
   zone         = "${var.instance_zone}"              # VM이 배치될 존(예: asia-northeast3-a), 변수로 전달받음
@@ -80,7 +80,7 @@ resource "google_compute_instance" "vm_instance" {   # GCP VM 인스턴스를 �
 
 ### 변수 설정
 
-```json
+```bash
 variable "instance_name" {}          # VM 인스턴스 이름을 외부에서 입력받는 변수 (필수 입력, 기본값 없음)
 variable "instance_zone" {}          # VM을 배치할 존(예 : asia-northeast3-a)을 외부에서 입력받는 변수 (기본값 없음)
 variable "instance_type" {           # VM 머신 타입을 지정하는 변수
