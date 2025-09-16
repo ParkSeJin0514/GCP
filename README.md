@@ -6,6 +6,7 @@
 - GCP DAY 2 : [09.11 Study](https://www.notion.so/psjrepository/DAY-42-26b3d86ddbdc80bfa73fcfd93a9b2898)
 - GCP DAY 3 : [09.12 Study](https://www.notion.so/psjrepository/DAY-43-26c3d86ddbdc80249e4ece59e9f14af9)
 - GCP DAY 4 : [09.15 Study](https://www.notion.so/psjrepository/DAY-44-26f3d86ddbdc807ab5ccdc90e9acc093)
+- GCP DAY 5 : [09.16 Study](https://www.notion.so/psjrepository/DAY-45-2703d86ddbdc801fb5bdfbc86eb80beb)
 ## Practice
 - GCP Fundamentals : [09.10 Google Cloud Fundamentals](practice/01_01_GCP.md)
 - GCP VPC : [09.10 Google Cloud VPC](practice/01_02_GCP.md)
